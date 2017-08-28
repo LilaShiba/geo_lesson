@@ -1,0 +1,2 @@
+module GeoMapsHelper
+end

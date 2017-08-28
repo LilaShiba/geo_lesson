@@ -1,0 +1,103 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+/* Basic Formats */
+
+h1, h2, h3, h4, h5,{
+    line-height: 1;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: -webkit-xxx-large;
+    }
+
+p{
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: .5em;
+}
+
+.btn-success {
+    color: deeppink;
+    background-color: transparent;
+    border-color: deeppink;
+    font-size: 2.5em;
+    font-weight: 900;
+
+    }
+
+/*flash*/
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+input {
+  height: auto !important;
+}
+
+/* footer */
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}

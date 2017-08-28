@@ -1,0 +1,16 @@
+<body>
+<h1> Coffee Shops! </h1>
+
+<section class='container'>
+
+	<%= form_tag show_path, method: "get", html: { class: "form" } do %>
+ 	<div class="form-group col-sm-6 col-md-offset-3">
+   	<%= text_field_tag(:hood, " ", placeholder: "Enter Neighborhood", class: "form-control") %>
+ 	</div>
+
+ 	<center><div class="form-group col-sm-12">
+ 	<%=submit_tag "Search", class: "btn btn-info"%>
+	<% end %>
+	</div></center>
+</section>
+</body>
